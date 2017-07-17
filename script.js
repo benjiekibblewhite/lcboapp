@@ -189,7 +189,7 @@ lcboapp.stores = {
 			$results = data.result;
 			//Capture name of product, display on store results page
 			$productNameStoreList = data.product.name;
-			var prodNameHtml = '<h3>Stores with ' + $productNameStoreList + ' in stock.</h3><p>Sorted by closest to ' + lcboapp.userLocation + '</p><p>Click here to return to search results</p>';
+			var prodNameHtml = '<h3>Stores with ' + $productNameStoreList + ' in stock.</h3><p>Sorted by closest to ' + lcboapp.userLocation + '</p><p>Click on Store Card to open directions in Google Maps.</p><p>Click here to return to search results</p>';
 			$("#prodNameStoreList").append(prodNameHtml);
 			//Sort results, removing stores with no product in stock
 			$hasProduct = [];
