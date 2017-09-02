@@ -166,7 +166,7 @@ lcboapp.products = {
 				clearResults();
 			}
 			else {
-				$searchUrl = "/products?access_key=MDo3MmM2MDczOC05ZmFhLTExZTYtOWExYS1kYjhlYzc1N2RmMmE6Y0J3VUM1eDlhWFFwUVNWMDdFUUQ4YmdxV2pNOUJFMUpOOUEw&per_page=10&q=" + searchQuery + "&xmlToJSON=false";
+				$searchUrl = "/products?access_key=MDphNjhjOWViOC05MDBiLTExZTctYjA3Mi02YjJjM2VjNGE5OTQ6WHJtUXYwUFRCaGFEMzh3NTVTbzFacnJEc3YyQjg3WmVEMXZN&per_page=10&q=" + searchQuery + "&xmlToJSON=false";
 				lcboapp.products.resultsGet($searchUrl);
 			}
 		});
@@ -235,7 +235,7 @@ lcboapp.stores = {
 		//AJAX GET request 
 		$(function() {
 			$.ajax({
-				url: 'https://lcboapi.com/stores?access_key=MDo3MmM2MDczOC05ZmFhLTExZTYtOWExYS1kYjhlYzc1N2RmMmE6Y0J3VUM1eDlhWFFwUVNWMDdFUUQ4YmdxV2pNOUJFMUpOOUEw&geo=' + lcboapp.userLocation + '&product_id=' + id,
+				url: 'https://lcboapi.com/stores?access_key=MDphNjhjOWViOC05MDBiLTExZTctYjA3Mi02YjJjM2VjNGE5OTQ6WHJtUXYwUFRCaGFEMzh3NTVTbzFacnJEc3YyQjg3WmVEMXZN&geo=' + lcboapp.userLocation + '&product_id=' + id,
 				dataType: 'json',
 				method: 'get',
 				xmlToJSON: false,
